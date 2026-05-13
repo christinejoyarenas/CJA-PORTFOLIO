@@ -260,3 +260,21 @@ footer{
     padding:20px;
     color:#7b5ea7;
 }
+
+/* responsive */
+@media(max-width:768px){
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:3rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+}
