@@ -223,3 +223,33 @@ nav a:hover{
     border-radius:20px;
 }
 
+/* contact */
+.contact-box{
+    max-width:700px;
+    margin:auto;
+    background:rgba(255,255,255,0.7);
+    padding:50px;
+    border-radius:30px;
+    text-align:center;
+    border:2px solid #f4d9ff;
+}
+
+.contact-links{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-links a{
+    text-decoration:none;
+    color:#7b5ea7;
+    background:#f8e5ff;
+    padding:15px;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.contact-links a:hover{
+    background:#e7d4ff;
+    transform:scale(1.03);
+}
