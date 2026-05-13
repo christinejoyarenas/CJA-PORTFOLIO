@@ -116,3 +116,19 @@ nav a:hover{
     color:#ff8db5;
 }
 
+/* btn */
+.btn{
+    padding:12px 28px;
+    border-radius:50px;
+    background:linear-gradient(to right,#d7bfff,#ffcce8);
+    text-decoration:none;
+    color:#5f5475;
+    font-weight:bold;
+    display:inline-block;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
