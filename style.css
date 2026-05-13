@@ -78,3 +78,41 @@ section{
 h1,h2,h3{
     font-family:'Playfair Display', serif;
 }
+
+/* navigation bar */
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 10%;
+    background:rgba(255,255,255,0.7);
+    backdrop-filter:blur(10px);
+    border-bottom:2px solid #f2d7ff;
+    z-index:1000;
+}
+
+nav h2{
+    color:#ec98f5;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#7b5ea7;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff8db5;
+}
+
