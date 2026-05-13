@@ -278,3 +278,25 @@ footer{
         gap:10px;
     }
 }
+
+.heart{
+    position:absolute;
+    color:#ff8db5;
+    font-size:20px;
+    pointer-events:none;
+    transform:translate(-50%, -50%);
+    z-index:9999;
+
+    animation:floatUp 3s ease-out forwards;
+}
+
+@keyframes floatUp{
+    0%{
+        opacity:1;
+        transform:translate(-50%, -50%) scale(1);
+    }
+    100%{
+        opacity:0;
+        transform:translate(-50%, -150px) scale(1.5);
+    }
+}
