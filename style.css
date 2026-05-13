@@ -214,3 +214,12 @@ nav a:hover{
 .project-content p{
     line-height:1.7;
 }
+
+.tech{
+    display:inline-block;
+    margin-top:15px;
+    background:#fff0b8;
+    padding:8px 14px;
+    border-radius:20px;
+}
+
